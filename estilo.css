@@ -41,6 +41,7 @@ h2, h3 {
 }
 footer a{
     color: #fff;
+    padding: 2em;
 }
 a {
     color: #420850;
@@ -71,9 +72,27 @@ img{
     height: auto;
 }
 figcaption{
-    color: #168670;
+    color: #8C1566;
 }
 video{
     max-width: 100%;
     height: auto;
 }
+#protagonistas{
+    display: grid;
+    grid: "a b c";
+}
+#listaProtegonistas{
+    grid-area: a;
+}
+#fig1{
+    grid-area: b;
+}
+#fig2{
+    grid-area: c;
+}
+@media only screen and (max-width: 768px) {
+    /* Too narrow to support three columns */
+    body { display: block; }
+    #protagonistas { display: block; }
+  }
