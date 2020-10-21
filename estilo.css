@@ -77,7 +77,7 @@ video{
     max-width: 100%;
     height: auto;
 }
-@media all and (max-width: 60em) {
+@media only screen and (max-width: 768px) {
     /* Too narrow to support three columns */
-    main { display: block; }
+    body { display: block; }
   }
