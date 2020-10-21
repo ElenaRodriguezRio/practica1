@@ -1,18 +1,65 @@
 body {
     font-family: 'PT Sans', sans-serif;
-    font: 400 15px;
+    font-size: 1em;
     line-height: 1.8;
-    color: #818181;
-    background-color: #f6f6f6;
+    color: #131313;
+    background-color: #FCFCFC;
 }
-h1 {
+h1, footer {
     font-family: 'Kelly Slab', cursive;
-    background-color:#FF5733; 
+    background-color:#8C1566; 
     color: #fff;
     text-transform: uppercase;
-    padding: 50px 10px;
-    text-align: center;     
+    text-align: center; 
 }
-h2 {
+h1{
+    padding: 1.5em 0.3em;
+}
+footer{
+    padding: 1em;
+    margin-top: 0.6em;
+}
+h2, h3 {
+    color: #168670;
     text-transform: uppercase;
+}
+footer a{
+    color: #fff;
+}
+a {
+    color: #420850;
+}
+nav a:hover, nav a:focus{
+    color: #168670;
+    background-color: #d3d3d3;
+}
+nav a{
+    background-color: #8ed3e4;
+    padding:0.3em;
+}
+th, td{
+    text-align: left;
+    padding: 0.25em 0.35em;
+    
+}
+th {
+    background-color: #8C1566;
+    color: #fff;
+}
+tr{
+    border-bottom: 0.1em solid  #8C1566;
+}
+table {
+    border-collapse: collapse;
+  }
+img{
+    max-width: 100%;
+    height: auto;
+}
+figcaption{
+    color: #168670;
+}
+video{
+    max-width: 100%;
+    height: auto;
 }
